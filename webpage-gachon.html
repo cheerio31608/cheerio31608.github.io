@@ -10,19 +10,44 @@
 	table img{
 		width: 200px;
 		height: 200px;
+		padding: 30px;
+		border-radius:20%;
 	}
+	table#menu{
+		margin: auto;
+	}
+ 
 </style>
+<script>
+	function change(){
+		
+	}
+</script>
 </head>
 <body>
 	<header>
 		<h1>가천대학교 주변 맛집</h1>
 	</header>
 	<section>
-		<a href="webpage-start.html">이전으로 돌아가기</a>
-		<hr>
-		<table border="1">
+	<a href="webpage-start.html">이전으로 돌아가기</a>
+	<h4>검색</h4>
+	<table>
+		<tr>
+		<td>
+		<div><button id="fork" onclick="change()">고기</button></div>
+		</td>
+		<td>
+		<button onclick="">술</button>
+		</td>
+		<td>
+		<button onclick="">덮밥</button>
+		</td>
+		</tr>
+	</table>
+	<hr>
+		<table border="1" id="menu">
 			<tbody>
-				<tr>
+				<tr style="border:none;">
 					<td>
 						<a href="diwali.html">
 							<img src="DIWALI.jpg" alt="디왈리">
@@ -42,13 +67,12 @@
 				<tr>
 					<th>디왈리</th><th>화로상회</th><th>겐코</th>
 				</tr>
-				<tr>
+				<tr style="border:none;">
 					<td>
 						<a href="hotable.html">
 							<img src="HO.jpg" alt="호식당">
 						</a>	
 					</td>
-					
 					<td>
 						<a href="yyc.html">
 							<img src="YYC.jpg" alt="육연차">
