@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>제목</title>
 	<style>
 	html,body{ margin:0; padding:0; height:100%; 
-		background-color:#FFFFE0;}
+		background: linear-gradient(to bottom, violet, purple);
+	}
 	
-	.header{ width:30%; height:20%; margin-left:35%; margin-right:35%; margin-bottom:3%;
-			border-style:solid;
-			border-width:1px;
-			border-color:black;}
-			
+	.header{ width:97%; height:20%; margin-left:1%; margin-right:1%; margin-bottom:3%; float:left;
+		<!-- border-style:solid; -->
+		<!-- border-width:1px; -->
+		<!-- border-color:black;} -->
+					
 	.section{ width:76%; height:40%; margin-right:1%; float:left;
 		border-style:solid;
 		border-width:1px;
-		border-color:black;}
+		border-color:black;
+		background-color:#FFFFE0;}
 		
 	.article{ width:20%; height:40%; margin-left:1%; margin-right:1%; margin-bottom:2%; float:left;
 		border-style:solid;
 		border-width:1px;
-		border-color:black;}
+		border-color:black;
+		background-color:#FFFFE0;}
 		
 	.section2{ width:97%; height:10%; margin-left:1%; margin-right:1%; margin-bottom:2%; float:left;
 		border-style:solid;
 		border-width:1px;
-		border-color:black;}	
+		border-color:black;
+		background-color:#FFFFE0;}	
 	
-	.section3{ width:97%; height:10%; margin-left:1%; margin-right:1%; float:left;
+	.section3{ width:15%; height:10%; margin-right:2%; float:right;
 		border-style:solid;
 		border-width:1px;
-		border-color:black;}	
+		border-color:black;
+		border-radius:50px;
+		text-align:center;
+		background-color:#FFFFE0;}	
+		
+	.article2{ width:20%; height:10%; margin-left:1%; margin-right:1%; float:left;
+		border-style:solid;
+		border-width:1px;
+		border-color:black;
+		background-color:#FFFFE0;}	
 		
 	p{
 		<!-- text-indent: 1em; -->
 	}
-		
+	
 	table#menu{ width:97%; height:93%;
 		margin-left:1%; margin-right:1%; margin-top:1%;
 	}
-		
+	
 	</style>
 </head>
 <body>
 	<header class="header">
 		<br><br><br>
 		<h1 style="text-align:center;">가게 이름</h1>
+		<p style="text-align:right;"><a href="webpage-gachon.html">이전으로 돌아가기</a></p>
 	</header>
 	<article class="article">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3167.510532658711!2d127.12482371530824!3d37.44866617982005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca9fa9de00b17%3A0x65f13c9d986189e4!2zRGl3YWxpIOuUlOyZiOumrA!5e0!3m2!1sko!2skr!4v1684675534536!5m2!1sko!2skr" 
@@ -54,7 +69,10 @@
 	<section class="section">
 		<table border="1" id="menu">
 			<tr>
-				<td height="75%">1</td><td height="75%">2</td><td height="75%">3</td><td>4</td>
+				<td height="75%"><img src="" alt="1"></td>
+				<td height="75%"><img src="" alt="1"></td>
+				<td height="75%"><img src="" alt="1"></td>
+				<td height="75%"><img src="" alt="1"></td>
 			</tr>
 			<tr>
 				<td>1</td><td>2</td><td>3</td><td>4</td>
@@ -64,9 +82,12 @@
 	<section class="section2">
 		<p>한줄평</p>
 	</section>
+	<article class="article2">
+		<p>영업 시간</p>
+	</article>
 	<section class="section3">
 		<p>키워드</p>
-		<a href="webpage-gachon.html">이전으로 돌아가기</a>
 	</section>
+	
 </body>
 </html>
