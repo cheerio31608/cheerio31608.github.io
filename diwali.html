@@ -46,14 +46,25 @@
 		background-color:#FFFFE0;}	
 		
 	p{
-		<!-- text-indent: 1em; -->
+		
 	}
-	
+	div{
+		text-align:center;
+	}
 	table#menu{ width:97%; height:93%;
 		margin-left:1%; margin-right:1%; margin-top:1%;
 	}
 	
+	table img{
+		width:100%;
+		height:100%;
+	}
 	</style>
+	<script>
+		function f(){
+			alert('사진출처:https://m.place.naver.com/restaurant/35849113/home ');
+		}
+	</script>
 </head>
 <body>
 	<header class="header">
@@ -69,13 +80,13 @@
 	<section class="section">
 		<table border="1" id="menu">
 			<tr>
-				<td height="75%"><img src="" alt="1"></td>
-				<td height="75%"><img src="" alt="1"></td>
-				<td height="75%"><img src="" alt="1"></td>
-				<td height="75%"><img src="" alt="1"></td>
+				<td height="75%"><img src="curry.jpg" alt="치킨마크니" onmouseover="f()";></td>
+				<td height="75%"><img src="nan.jpg" alt="파니르 난" onmouseover="f()"></td>
+				<td height="75%"><img src="chicken.jpg" alt="탄두리 치킨" onmouseover="f()"></td>
+				<td height="75%"><img src="lassi.jpg" alt="라씨" onmouseover="f()"></td>
 			</tr>
 			<tr>
-				<td>1</td><td>2</td><td>3</td><td>4</td>
+				<td><div>치킨마크니</div></td><td><div>파니르 난</div></td><td><div>탄두리 치킨</div></td><td><div>라씨</div></td>
 			</tr>
 		</table>
 	</section>
