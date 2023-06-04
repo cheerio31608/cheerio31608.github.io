@@ -39,3 +39,7 @@
 		width:100%;
 		height:100%;
 	}
+
+	table img:hover{
+		transform: scale(2, 2);
+	}
