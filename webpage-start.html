@@ -4,25 +4,32 @@
 	<meta charset="UTF-8">
 	<title>시작 화면</title>
 	<style>
+		body{
+			background-color:skyblue;
+		}
 		h1{
 			text-align: center;
 		}
-		
+		.header{
+			margin-bottom: 200px;
+		}
 		table img{
 			width: 200px;
 			height: 200px;
-			padding: 30px;
-			background-color: skyblue;
+			padding: 40px;
+			margin: 10px;
+			border-radius:20%;
+			background-color:white;
 		}
-		table{
+		table#menu{
 			margin: auto;
 		}
 	</style>
 </head>
 <body>
-	<header><h1>나만의 맛집 저장소<h1></header>
+	<header class="header"><h1>나만의 맛집 저장소<h1></header>
 	<form>
-	<table border="1">
+	<table id="menu">
 		<tbody>
 			<tr>
 				<td>
