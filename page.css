@@ -21,6 +21,9 @@
 	h4, p{
 		text-indent:5px;
 	}
+	a{
+		background-color:#FFFFE0;
+	}
 	div{ 
 		text-align:center;
 		font-weight:bold;
