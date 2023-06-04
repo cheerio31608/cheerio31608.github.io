@@ -1,3 +1,7 @@
+	body{
+		font-size:1vw;
+	}
+
 	.header{ width:97%; height:20%; margin-left:1%; margin-right:1%; margin-bottom:1%; float:left;
 	}
 					
@@ -19,7 +23,7 @@
 		background-color:#FFFFE0;}	
 		
 	h4, p{
-		text-indent:5px;
+		margin:10px;
 	}
 	a{
 		background-color:#FFFFE0;
